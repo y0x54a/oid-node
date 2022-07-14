@@ -64,6 +64,9 @@ oid1.getTimestamp();
 
 oid2.getTimestamp();
 // 1122867
+
+Oid453.generate(1122867);
+// 00112233...
 ```
 
 ```js
@@ -109,13 +112,16 @@ oid1.getTimestamp();
 
 oid2.getTimestamp();
 // 287454020
+
+Oid563.generate(287454020);
+// 0011223344...
 ```
 
 ## API
 
-- ### `Oid`
+- ### Oid
 
-- ### `Oid453`
+- ### Oid453
 
   - **Methods**
 
@@ -139,7 +145,7 @@ oid2.getTimestamp();
 
   - `generate(timestamp: number): string`
 
-- ### `Oid563`
+- ### Oid563
 
   - **Methods**
 
