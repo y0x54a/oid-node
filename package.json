@@ -1,7 +1,7 @@
 {
   "name": "@y0x54a/oid-node",
   "description": "@y0x54a/oid-node",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "Apache-2.0",
   "dependencies": {},
   "devDependencies": {
